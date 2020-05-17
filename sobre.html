@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1">
+	<link href="styles/sobre.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/png" href="images/15160-illustration-of-a-gold-star-pv.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script>function initMap(){
+    var location = {lat: 36.014860, lng: -86.558885};
+    var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 15,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0fP3afZEgyqapCJ-KOOrgrD2dKM91zVk&callback=initMap"></script>
+	<title>Auto Website</title>
+</head>
+
+
+<body>
+<div class="menu-wrap">
+   <input type="checkbox" class="toggler">
+   <div class="hamburger"><div></div></div>
+   <div class="menu">
+       <div>
+           <div>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+               <li><a href="about.html">About</a></li>
+           </ul>
+           </div>
+       </div>
+   </div>
+</div>
+
+
+<header class="showcase">
+   <div class="container showcase-inner">
+   <h4>Sobre Nosotros</h4>
+   
+    <p> Five Star Auto Service es un taller de carrocería comprometido a ayudar a todas las personas. Siempre damos el mejor servicio disponible a todos. Estamos abiertos de lunes a sabado de 8 a.m. a 6 p.m.  ubicados en 5380 Murfreesboro Road LaVergne, TN 37086. Si desea un presupuesto gratis, no dude en visitarnos o llamenos al (615) 720-3834! No dude en desplazarse hacia abajo para ver un mapa para ver donde estamos ubicados. </p>
+    </div>
+</header>
+
+
+
+<div id="map"></div>
+</body>
+</html>
